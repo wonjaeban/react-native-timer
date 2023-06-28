@@ -1,7 +1,7 @@
 import React, {useCallback, useEffect, useState, useRef} from 'react';
 import {Text, View} from 'react-native';
 
-const SelStuExamTimer = ({restartCondition}) => {
+const Timer = ({restartCondition}) => {
   const [time, setTime] = useState(0);
   const timer = useRef();
 
@@ -49,4 +49,4 @@ const SelStuExamTimer = ({restartCondition}) => {
   );
 };
 
-export default SelStuExamTimer;
+export default Timer;
